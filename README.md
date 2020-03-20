@@ -16,3 +16,17 @@ void billfn()           //bill generation
                 printf("\n");
               }
     }
+ void get() //list of gifts taken by students  (Value entered by User)
+   {
+      printf("\n\n");
+      printf("Entered Data\n\n");
+         printf("\nStudent No.\t\tNo. Of Gifts Purchased \n");
+           for(i = 0; i < n; i++)
+            {
+                printf("Student No. = %d \t\t",p_no[i]);  //process no
+                printf("%d \t\t\t",B_T[i]);               //brust time
+              printf("\n\n");
+            }
+       }
+       
+             
